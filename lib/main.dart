@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:team_collaboration_google_docs/feature/presentation/view/login_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,7 +11,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  MaterialApp(
-      //home: ,
+      debugShowCheckedModeBanner: false,
+      home:LoginView() ,
     );
   }
 }
