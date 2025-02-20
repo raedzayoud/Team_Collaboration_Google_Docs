@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:team_collaboration_google_docs/core/utils/router.dart';
 import 'package:team_collaboration_google_docs/feature/presentation/view/login_view.dart';
 
 void main() {
@@ -13,6 +14,7 @@ class MyApp extends StatelessWidget {
     return  MaterialApp(
       debugShowCheckedModeBanner: false,
       home:LoginView() ,
+      routes:AppRouter.pageRoutes,
     );
   }
 }

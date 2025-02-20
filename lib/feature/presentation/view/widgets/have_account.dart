@@ -1,8 +1,8 @@
-import 'package:flutter/material.dart';
-import 'package:team_collaboration_google_docs/feature/presentation/view/register_view.dart';
 
-class Signup extends StatelessWidget {
-  const Signup({
+import 'package:flutter/material.dart';
+
+class Have_Account extends StatelessWidget {
+  const Have_Account({
     super.key,
   });
 
@@ -11,10 +11,10 @@ class Signup extends StatelessWidget {
     return Center(
         child: InkWell(
       onTap: () {
-        Navigator.of(context).pushReplacementNamed("register");
+       // Get.offAllNamed(AppRouter.login);
       },
       child: Text(
-        "Don't have an account? Sign up",
+        "have an account?",
         style: TextStyle(fontSize: 16, fontWeight: FontWeight.w400),
       ),
     ));
