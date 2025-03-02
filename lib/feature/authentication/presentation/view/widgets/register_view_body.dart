@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:team_collaboration_google_docs/feature/presentation/view/widgets/content_body_register.dart';
+import 'package:team_collaboration_google_docs/feature/authentication/presentation/view/widgets/content_body_register.dart';
 
 class RegisterViewBody extends StatefulWidget {
   const RegisterViewBody({super.key});

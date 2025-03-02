@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:team_collaboration_google_docs/feature/presentation/view/register_view.dart';
+import 'package:team_collaboration_google_docs/feature/authentication/presentation/view/register_view.dart';
 
 class AppRouter{
   static Map<String,Widget Function(BuildContext)>pageRoutes={

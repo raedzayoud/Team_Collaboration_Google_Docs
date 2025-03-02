@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter/material.dart';
-import 'package:team_collaboration_google_docs/feature/presentation/view/widgets/content_body_login.dart';
+import 'package:team_collaboration_google_docs/feature/authentication/presentation/view/widgets/content_body_login.dart';
 
 class LoginViewBody extends StatefulWidget {
   const LoginViewBody({super.key});

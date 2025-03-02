@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:team_collaboration_google_docs/feature/presentation/view/register_view.dart';
+import 'package:team_collaboration_google_docs/feature/authentication/presentation/view/register_view.dart';
 
 class Signup extends StatelessWidget {
   const Signup({

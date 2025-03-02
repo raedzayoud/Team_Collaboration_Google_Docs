@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:team_collaboration_google_docs/core/utils/assets.dart';
 import 'package:team_collaboration_google_docs/core/utils/function/validator.dart';
-import 'package:team_collaboration_google_docs/feature/presentation/view/widgets/custom_button.dart';
-import 'package:team_collaboration_google_docs/feature/presentation/view/widgets/custom_image.dart';
-import 'package:team_collaboration_google_docs/feature/presentation/view/widgets/custom_password_forget.dart';
-import 'package:team_collaboration_google_docs/feature/presentation/view/widgets/custom_text_field.dart';
-import 'package:team_collaboration_google_docs/feature/presentation/view/widgets/custom_title.dart';
-import 'package:team_collaboration_google_docs/feature/presentation/view/widgets/signup.dart';
+import 'package:team_collaboration_google_docs/feature/authentication/presentation/view/widgets/custom_button.dart';
+import 'package:team_collaboration_google_docs/feature/authentication/presentation/view/widgets/custom_image.dart';
+import 'package:team_collaboration_google_docs/feature/authentication/presentation/view/widgets/custom_password_forget.dart';
+import 'package:team_collaboration_google_docs/feature/authentication/presentation/view/widgets/custom_text_field.dart';
+import 'package:team_collaboration_google_docs/feature/authentication/presentation/view/widgets/custom_title.dart';
+import 'package:team_collaboration_google_docs/feature/authentication/presentation/view/widgets/signup.dart';
 
 class content_body_login extends StatelessWidget {
   const content_body_login({
